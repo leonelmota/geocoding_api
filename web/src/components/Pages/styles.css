@@ -1,0 +1,80 @@
+ div .input-group {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+ div .input-group div .input-lat {
+    margin-left: 10pt;
+    display: inline;
+}
+
+ div .input-group div .input-long {
+    margin-left: 10pt;
+    display: inline;
+}
+
+div .input-group div .input-group button {
+    display: inline;
+}
+
+
+
+.input > label{
+    font-weight: bold;
+    text-align: left;
+    font-size: smaller;
+}
+
+.input{
+    max-width: 350px;
+    text-align: left;     
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+    /* width: 100%;*/
+} 
+
+
+.input-select{
+    max-width: 300px; 
+}
+
+.input-address{
+    width: 500px;
+    margin-bottom: 5px;
+}
+
+.input-type{
+    width: 170px;
+}
+
+.input-lat, .input-long, .input-limite{
+    width: 200px;
+}
+
+.input-name, .input-neighborhood, .input-city, .input-state, .input-number{
+    width: 180px;
+}
+
+.btn{
+    max-width: 80px;
+    margin: 5px;
+}
+
+.add{
+    max-width: 160px;
+}
+
+
+.form-inline{
+  display: flex;
+  justify-content: center;
+}
+
+
+.form{
+  margin: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
